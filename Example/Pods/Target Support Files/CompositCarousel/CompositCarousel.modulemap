@@ -1,0 +1,6 @@
+framework module CompositCarousel {
+  umbrella header "CompositCarousel-umbrella.h"
+
+  export *
+  module * { export * }
+}

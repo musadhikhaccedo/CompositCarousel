@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C6317D67FE983E0ECBF036B9807790 /* CompositCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CB1CB6FC946809B5AC6810665A83C2 /* CompositCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B55FF15FA94D2A20866F9613485025 /* CompositCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFDDAD7C92BEFE0D07F56F6D96B7EC /* CompositCarousel-dummy.m */; };
+		3AC4E56C0274699DA560B6BC4722A8AB /* Pods-CompositCarousel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9E8DED6358881314FF22E8E68D6E51 /* Pods-CompositCarousel_Example-dummy.m */; };
+		4EE7FA5279DCBFB289D3404B4EEB2A7D /* Pods-CompositCarousel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F367091EC72260DFEB622A92DE3F5A7 /* Pods-CompositCarousel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		674A5678D9CA338B23A6AE0074E3CFC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		936E33C2724770AD86582E8889BDFBB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E4BAC3C85CCB5B129C3739FD2BB7978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C65A61702B0D9F0C00C7318D /* CarouselContinaerController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A616D2B0D9F0C00C7318D /* CarouselContinaerController+Extension.swift */; };
+		C65A61712B0D9F0C00C7318D /* ContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A616E2B0D9F0C00C7318D /* ContainerCell.swift */; };
+		C65A61732B0D9F2D00C7318D /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A61722B0D9F2D00C7318D /* Section.swift */; };
+		C65A61752B0DA38D00C7318D /* CarouselViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65A61742B0DA38D00C7318D /* CarouselViewSource.swift */; };
+		C66CFA802B0CB76D003BC05A /* CarouselContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66CFA7F2B0CB76D003BC05A /* CarouselContainerController.swift */; };
+		DE228AACB8FF8148094A581F3E463B86 /* Pods-CompositCarousel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C27DFA70B6BE9C867CD7D4C6AF8B5 /* Pods-CompositCarousel_Tests-dummy.m */; };
+		FF200E2F6909A991C20A41C6F9F04A23 /* Pods-CompositCarousel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A20A5BF154DECBE84FF61B2AF41DD7AE /* Pods-CompositCarousel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE35A05D5EE66764EB70A27C400A040 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CAB15D2A3BECCD8838C9819D034F4C;
+			remoteInfo = CompositCarousel;
+		};
+		DED4BD535A37547186CC0519DCBD5F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4653BAA3CB3A3361F7246869FD96B6F;
+			remoteInfo = "Pods-CompositCarousel_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004A63CD38633AD45557BD9D84E2AFE5 /* Pods-CompositCarousel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CompositCarousel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		052DCDD4A0B464BD2552A123E5424455 /* Pods-CompositCarousel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CompositCarousel_Example"; path = Pods_CompositCarousel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FFDDAD7C92BEFE0D07F56F6D96B7EC /* CompositCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompositCarousel-dummy.m"; sourceTree = "<group>"; };
+		0B33AF853FD757BA7A8407C7AC5F2CC9 /* Pods-CompositCarousel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CompositCarousel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F55D92ACCD369E79FC1EF1DD8CFC7C3 /* Pods-CompositCarousel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompositCarousel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		17CBD2BD75996440C237D1B28EFA8EAC /* Pods-CompositCarousel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompositCarousel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C5EFF8479C2EEB6518D5FB3606062C6 /* Pods-CompositCarousel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompositCarousel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E9E8DED6358881314FF22E8E68D6E51 /* Pods-CompositCarousel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CompositCarousel_Example-dummy.m"; sourceTree = "<group>"; };
+		22287B1AE114A5C3904F8F5F90ABA816 /* Pods-CompositCarousel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompositCarousel_Tests-Info.plist"; sourceTree = "<group>"; };
+		2A6A1FE1889DA146009A1D50FACF0849 /* Pods-CompositCarousel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CompositCarousel_Example.modulemap"; sourceTree = "<group>"; };
+		2CD713E974173C268188AA670EBD1F2C /* Pods-CompositCarousel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompositCarousel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3DC78DF98472173CF4670897729D9208 /* Pods-CompositCarousel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompositCarousel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		405C27DFA70B6BE9C867CD7D4C6AF8B5 /* Pods-CompositCarousel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CompositCarousel_Tests-dummy.m"; sourceTree = "<group>"; };
+		46CB1CB6FC946809B5AC6810665A83C2 /* CompositCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompositCarousel-umbrella.h"; sourceTree = "<group>"; };
+		4D1025E0CFA0D3E188A2A929CAC753D0 /* CompositCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompositCarousel-Info.plist"; sourceTree = "<group>"; };
+		585874C36705B5C58B5EB039C6E95C4C /* Pods-CompositCarousel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CompositCarousel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F367091EC72260DFEB622A92DE3F5A7 /* Pods-CompositCarousel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CompositCarousel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7224C3096B1F6FBC33E5C7C7BCCC37EE /* CompositCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompositCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		760F0348C008BB3522BB063CD42FFC19 /* CompositCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompositCarousel.debug.xcconfig; sourceTree = "<group>"; };
+		76407FC981B7340F08F872655B7D9BF7 /* CompositCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompositCarousel.release.xcconfig; sourceTree = "<group>"; };
+		7B5D552631E98C862992BAC4C54B8A77 /* CompositCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompositCarousel-prefix.pch"; sourceTree = "<group>"; };
+		8D75D690582C17FCB4368990080A6374 /* Pods-CompositCarousel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CompositCarousel_Tests.modulemap"; sourceTree = "<group>"; };
+		941E60BEA02091DE141E892986D7CA63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		964484E11D7671158D9760CC35A771AD /* Pods-CompositCarousel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CompositCarousel_Tests"; path = Pods_CompositCarousel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9D331EC58A64735750C6679FBFDD82 /* Pods-CompositCarousel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompositCarousel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A20A5BF154DECBE84FF61B2AF41DD7AE /* Pods-CompositCarousel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CompositCarousel_Example-umbrella.h"; sourceTree = "<group>"; };
+		C65A616D2B0D9F0C00C7318D /* CarouselContinaerController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CarouselContinaerController+Extension.swift"; sourceTree = "<group>"; };
+		C65A616E2B0D9F0C00C7318D /* ContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerCell.swift; sourceTree = "<group>"; };
+		C65A61722B0D9F2D00C7318D /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		C65A61742B0DA38D00C7318D /* CarouselViewSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarouselViewSource.swift; path = CompositCarousel/Classes/DataSources/CarouselViewSource.swift; sourceTree = "<group>"; };
+		C66CFA7F2B0CB76D003BC05A /* CarouselContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarouselContainerController.swift; path = CompositCarousel/Classes/CarouselContainerController.swift; sourceTree = "<group>"; };
+		CAAA8B556E19ECED8C1843EB3B32099B /* CompositCarousel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CompositCarousel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCACCFEE20C1BAF96C214EB655FC0927 /* Pods-CompositCarousel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompositCarousel_Example-Info.plist"; sourceTree = "<group>"; };
+		EAF07851086090B24415DBE5EF01FABE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE4D9118C7203B6FCB9151AD0B7D2CAC /* CompositCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompositCarousel.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC33C5087772FEB47C2D7F159850411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936E33C2724770AD86582E8889BDFBB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5665FF2EE630F6C75DB185E676F911C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A5678D9CA338B23A6AE0074E3CFC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E33AF6423049A56F38B8327DA9FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4BAC3C85CCB5B129C3739FD2BB7978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2915148698CD9F6400F0D244156E7FCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4D9118C7203B6FCB9151AD0B7D2CAC /* CompositCarousel.modulemap */,
+				07FFDDAD7C92BEFE0D07F56F6D96B7EC /* CompositCarousel-dummy.m */,
+				4D1025E0CFA0D3E188A2A929CAC753D0 /* CompositCarousel-Info.plist */,
+				7B5D552631E98C862992BAC4C54B8A77 /* CompositCarousel-prefix.pch */,
+				46CB1CB6FC946809B5AC6810665A83C2 /* CompositCarousel-umbrella.h */,
+				760F0348C008BB3522BB063CD42FFC19 /* CompositCarousel.debug.xcconfig */,
+				76407FC981B7340F08F872655B7D9BF7 /* CompositCarousel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CompositCarousel";
+			sourceTree = "<group>";
+		};
+		4CFFABF1B766188DA6734CAAAD53B15D /* Pods-CompositCarousel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A1FE1889DA146009A1D50FACF0849 /* Pods-CompositCarousel_Example.modulemap */,
+				585874C36705B5C58B5EB039C6E95C4C /* Pods-CompositCarousel_Example-acknowledgements.markdown */,
+				1C5EFF8479C2EEB6518D5FB3606062C6 /* Pods-CompositCarousel_Example-acknowledgements.plist */,
+				1E9E8DED6358881314FF22E8E68D6E51 /* Pods-CompositCarousel_Example-dummy.m */,
+				004A63CD38633AD45557BD9D84E2AFE5 /* Pods-CompositCarousel_Example-frameworks.sh */,
+				CCACCFEE20C1BAF96C214EB655FC0927 /* Pods-CompositCarousel_Example-Info.plist */,
+				A20A5BF154DECBE84FF61B2AF41DD7AE /* Pods-CompositCarousel_Example-umbrella.h */,
+				0F55D92ACCD369E79FC1EF1DD8CFC7C3 /* Pods-CompositCarousel_Example.debug.xcconfig */,
+				17CBD2BD75996440C237D1B28EFA8EAC /* Pods-CompositCarousel_Example.release.xcconfig */,
+			);
+			name = "Pods-CompositCarousel_Example";
+			path = "Target Support Files/Pods-CompositCarousel_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		913B26CF165344716EBC8B211FE9A5AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA8B556E19ECED8C1843EB3B32099B /* CompositCarousel.podspec */,
+				941E60BEA02091DE141E892986D7CA63 /* LICENSE */,
+				EAF07851086090B24415DBE5EF01FABE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		995BFC952AB2385F42ECC7C116F8F0CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8762C7FEC635164546DE0D422540ACA /* CompositCarousel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0F98AC523A51F5BAC0B3371B56D9526 /* Pods-CompositCarousel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D75D690582C17FCB4368990080A6374 /* Pods-CompositCarousel_Tests.modulemap */,
+				0B33AF853FD757BA7A8407C7AC5F2CC9 /* Pods-CompositCarousel_Tests-acknowledgements.markdown */,
+				9D9D331EC58A64735750C6679FBFDD82 /* Pods-CompositCarousel_Tests-acknowledgements.plist */,
+				405C27DFA70B6BE9C867CD7D4C6AF8B5 /* Pods-CompositCarousel_Tests-dummy.m */,
+				22287B1AE114A5C3904F8F5F90ABA816 /* Pods-CompositCarousel_Tests-Info.plist */,
+				5F367091EC72260DFEB622A92DE3F5A7 /* Pods-CompositCarousel_Tests-umbrella.h */,
+				3DC78DF98472173CF4670897729D9208 /* Pods-CompositCarousel_Tests.debug.xcconfig */,
+				2CD713E974173C268188AA670EBD1F2C /* Pods-CompositCarousel_Tests.release.xcconfig */,
+			);
+			name = "Pods-CompositCarousel_Tests";
+			path = "Target Support Files/Pods-CompositCarousel_Tests";
+			sourceTree = "<group>";
+		};
+		A28C90EAC0E1AC6C32A0662E7E0E7D10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFFABF1B766188DA6734CAAAD53B15D /* Pods-CompositCarousel_Example */,
+				A0F98AC523A51F5BAC0B3371B56D9526 /* Pods-CompositCarousel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1376FECC9ED3E722B1E96E05D9AB16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7224C3096B1F6FBC33E5C7C7BCCC37EE /* CompositCarousel.framework */,
+				052DCDD4A0B464BD2552A123E5424455 /* Pods-CompositCarousel_Example */,
+				964484E11D7671158D9760CC35A771AD /* Pods-CompositCarousel_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65A616B2B0D9F0C00C7318D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			path = CompositCarousel/Classes/Cells;
+			sourceTree = "<group>";
+		};
+		C65A616C2B0D9F0C00C7318D /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				C65A616D2B0D9F0C00C7318D /* CarouselContinaerController+Extension.swift */,
+				C65A616E2B0D9F0C00C7318D /* ContainerCell.swift */,
+			);
+			name = Container;
+			path = CompositCarousel/Classes/Container;
+			sourceTree = "<group>";
+		};
+		C65A616F2B0D9F0C00C7318D /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				C65A61722B0D9F2D00C7318D /* Section.swift */,
+			);
+			name = Sections;
+			path = CompositCarousel/Classes/Sections;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				995BFC952AB2385F42ECC7C116F8F0CC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B1376FECC9ED3E722B1E96E05D9AB16A /* Products */,
+				A28C90EAC0E1AC6C32A0662E7E0E7D10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8762C7FEC635164546DE0D422540ACA /* CompositCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				C66CFA7F2B0CB76D003BC05A /* CarouselContainerController.swift */,
+				C65A61742B0DA38D00C7318D /* CarouselViewSource.swift */,
+				C65A616B2B0D9F0C00C7318D /* Cells */,
+				C65A616C2B0D9F0C00C7318D /* Container */,
+				C65A616F2B0D9F0C00C7318D /* Sections */,
+				913B26CF165344716EBC8B211FE9A5AB /* Pod */,
+				2915148698CD9F6400F0D244156E7FCF /* Support Files */,
+			);
+			name = CompositCarousel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27541CE77D6BA167C73BCFE134505E2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C6317D67FE983E0ECBF036B9807790 /* CompositCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88519E5BDE61CD4415E048D5A911222F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE7FA5279DCBFB289D3404B4EEB2A7D /* Pods-CompositCarousel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996EFE2731BE6092414BB032F99275CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF200E2F6909A991C20A41C6F9F04A23 /* Pods-CompositCarousel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14CAB15D2A3BECCD8838C9819D034F4C /* CompositCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50527F1972A0111397113E07AE52FB5F /* Build configuration list for PBXNativeTarget "CompositCarousel" */;
+			buildPhases = (
+				27541CE77D6BA167C73BCFE134505E2A /* Headers */,
+				D7CFE485B96C406CC9C4DB8970FB3ED5 /* Sources */,
+				5665FF2EE630F6C75DB185E676F911C4 /* Frameworks */,
+				AEEC0DA06CB3D22FE3C9350A1CEF563D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompositCarousel;
+			productName = CompositCarousel;
+			productReference = 7224C3096B1F6FBC33E5C7C7BCCC37EE /* CompositCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6736BD07E3D5D3E8C2EFFCB44D9619F4 /* Pods-CompositCarousel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9E15D1AF208770C20E1EEA093BD68F /* Build configuration list for PBXNativeTarget "Pods-CompositCarousel_Tests" */;
+			buildPhases = (
+				88519E5BDE61CD4415E048D5A911222F /* Headers */,
+				B0490B4C1C2ECC024599754C47E68AF6 /* Sources */,
+				C34E33AF6423049A56F38B8327DA9FB9 /* Frameworks */,
+				E978CF0C75F229B4843DEF3546E22400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847D0F027E328BA46C54D50D724747FC /* PBXTargetDependency */,
+			);
+			name = "Pods-CompositCarousel_Tests";
+			productName = Pods_CompositCarousel_Tests;
+			productReference = 964484E11D7671158D9760CC35A771AD /* Pods-CompositCarousel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4653BAA3CB3A3361F7246869FD96B6F /* Pods-CompositCarousel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1E619042B1C5F7FCF1A7A8D78A4E07 /* Build configuration list for PBXNativeTarget "Pods-CompositCarousel_Example" */;
+			buildPhases = (
+				996EFE2731BE6092414BB032F99275CE /* Headers */,
+				D18AB6DDE616B1AAB7599DAC6C834404 /* Sources */,
+				4FC33C5087772FEB47C2D7F159850411 /* Frameworks */,
+				CCEC5069C6A024BFA9449FC724CCFF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AEFA1AB82DE8A1A376C8A3B6DD3F3E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CompositCarousel_Example";
+			productName = Pods_CompositCarousel_Example;
+			productReference = 052DCDD4A0B464BD2552A123E5424455 /* Pods-CompositCarousel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					14CAB15D2A3BECCD8838C9819D034F4C = {
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B1376FECC9ED3E722B1E96E05D9AB16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CAB15D2A3BECCD8838C9819D034F4C /* CompositCarousel */,
+				C4653BAA3CB3A3361F7246869FD96B6F /* Pods-CompositCarousel_Example */,
+				6736BD07E3D5D3E8C2EFFCB44D9619F4 /* Pods-CompositCarousel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEC0DA06CB3D22FE3C9350A1CEF563D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEC5069C6A024BFA9449FC724CCFF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E978CF0C75F229B4843DEF3546E22400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0490B4C1C2ECC024599754C47E68AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE228AACB8FF8148094A581F3E463B86 /* Pods-CompositCarousel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18AB6DDE616B1AAB7599DAC6C834404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC4E56C0274699DA560B6BC4722A8AB /* Pods-CompositCarousel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CFE485B96C406CC9C4DB8970FB3ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65A61732B0D9F2D00C7318D /* Section.swift in Sources */,
+				C65A61752B0DA38D00C7318D /* CarouselViewSource.swift in Sources */,
+				C65A61702B0D9F0C00C7318D /* CarouselContinaerController+Extension.swift in Sources */,
+				C65A61712B0D9F0C00C7318D /* ContainerCell.swift in Sources */,
+				16B55FF15FA94D2A20866F9613485025 /* CompositCarousel-dummy.m in Sources */,
+				C66CFA802B0CB76D003BC05A /* CarouselContainerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AEFA1AB82DE8A1A376C8A3B6DD3F3E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompositCarousel;
+			target = 14CAB15D2A3BECCD8838C9819D034F4C /* CompositCarousel */;
+			targetProxy = 2FE35A05D5EE66764EB70A27C400A040 /* PBXContainerItemProxy */;
+		};
+		847D0F027E328BA46C54D50D724747FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CompositCarousel_Example";
+			target = C4653BAA3CB3A3361F7246869FD96B6F /* Pods-CompositCarousel_Example */;
+			targetProxy = DED4BD535A37547186CC0519DCBD5F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037BF21BF4B34F6FF557CBAA3A858FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76407FC981B7340F08F872655B7D9BF7 /* CompositCarousel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CompositCarousel/CompositCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompositCarousel/CompositCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CompositCarousel/CompositCarousel.modulemap";
+				PRODUCT_MODULE_NAME = CompositCarousel;
+				PRODUCT_NAME = CompositCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		91071DD7D232936C4DB99A08B100206A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD713E974173C268188AA670EBD1F2C /* Pods-CompositCarousel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompositCarousel_Tests/Pods-CompositCarousel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompositCarousel_Tests/Pods-CompositCarousel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2C4BAB7AF3743C8064F0F5A4301550A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CBD2BD75996440C237D1B28EFA8EAC /* Pods-CompositCarousel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompositCarousel_Example/Pods-CompositCarousel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompositCarousel_Example/Pods-CompositCarousel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C31B2C22A1BA99CDD9AD3B44869ECA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F55D92ACCD369E79FC1EF1DD8CFC7C3 /* Pods-CompositCarousel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompositCarousel_Example/Pods-CompositCarousel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompositCarousel_Example/Pods-CompositCarousel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C836F52E9F7C3E0480E9C0825CBCAB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC78DF98472173CF4670897729D9208 /* Pods-CompositCarousel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompositCarousel_Tests/Pods-CompositCarousel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompositCarousel_Tests/Pods-CompositCarousel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D641F530CB96177E537B9E5D98A12BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760F0348C008BB3522BB063CD42FFC19 /* CompositCarousel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CompositCarousel/CompositCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompositCarousel/CompositCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CompositCarousel/CompositCarousel.modulemap";
+				PRODUCT_MODULE_NAME = CompositCarousel;
+				PRODUCT_NAME = CompositCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50527F1972A0111397113E07AE52FB5F /* Build configuration list for PBXNativeTarget "CompositCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D641F530CB96177E537B9E5D98A12BE3 /* Debug */,
+				037BF21BF4B34F6FF557CBAA3A858FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9E15D1AF208770C20E1EEA093BD68F /* Build configuration list for PBXNativeTarget "Pods-CompositCarousel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C836F52E9F7C3E0480E9C0825CBCAB3B /* Debug */,
+				91071DD7D232936C4DB99A08B100206A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1E619042B1C5F7FCF1A7A8D78A4E07 /* Build configuration list for PBXNativeTarget "Pods-CompositCarousel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31B2C22A1BA99CDD9AD3B44869ECA09 /* Debug */,
+				B2C4BAB7AF3743C8064F0F5A4301550A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
